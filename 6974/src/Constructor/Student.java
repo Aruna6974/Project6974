@@ -11,6 +11,7 @@ public class Student
 		this.name = name;
 	}
 	
+	
 	void display()
 	{
 		System.out.println(id+" "+name);
