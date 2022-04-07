@@ -25,7 +25,7 @@ public class MyHashMap
 		while(itr.hasNext())
 		{
 			Map.entry(map=(Map.Entry)itr.next();
-			System.out.println(map.getKey()+"        "+getValue());
+			System.out.println(((Entry) map).getKey()+"        "+getValue());
 		}
 
 	}

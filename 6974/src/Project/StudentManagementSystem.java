@@ -34,7 +34,7 @@ class Student1 implements School
 	} 
 	public String toString()
 	{
-		return "\nStudent Details :" + "\nID:" + this.id + "\nName: "+this.name + "\nschoolname: "+this.schoolname+ "\naddress: "+this.address + "\nscore: "+this.score + "\nfees: "+this.fees;	
+		return "\nStudent Details :" + "\nID:" + this.id + "\nName:" +this.name + "\nschoolname: "+this.schoolname+ "\nadress: " +this.address+ "\nscore: "+this.score + "\nfees: "+this.fees;	
 	}
 	
 }
@@ -223,7 +223,8 @@ public class StudentManagementSystem
 			        	System.out.println(ex);
 			        }
 			        break;
-			case 5: try
+			case 5:System.out.println("\n Student1 Details.....");
+				try
 			         {
 				      al=(ArrayList<Student1>)ois.readObject();
 			         }

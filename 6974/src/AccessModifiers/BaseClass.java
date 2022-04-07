@@ -18,6 +18,11 @@ class A
 				
 	}
 
+	public void display() {
+		// TODO Auto-generated method stub
+		
+	}
+
 		// TODO Auto-generated method stub
 		
 }
