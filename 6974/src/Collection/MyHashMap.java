@@ -12,7 +12,7 @@ public class MyHashMap
 
 	public static void main(String[] args) 
 	{
-		HashMap<String,String> map=new HashMap<String,String>();
+		HashMap<String, String> map=new HashMap<String,String>();
 		map.put("Martyn","D"); //put elements in Map
 		map.put("Arun","C");
 		map.put("Sadhya","B");
@@ -24,8 +24,8 @@ public class MyHashMap
 		Iterator itr=s.iterator();
 		while(itr.hasNext())
 		{
-			Map.entry(map=(Map.Entry)itr.next();
-			System.out.println(((Entry) map).getKey()+"        "+getValue());
+			Map.Entry map1=(Map.Entry)itr.next();
+			System.out.println(map1.getKey()+"  "+map1.getValue());
 		}
 
 	}

@@ -46,7 +46,7 @@ public class OptionalClass
 		//ifPresent
 		System.out.println(value.isPresent());
 		
-		Optional<String> statement=Optional.of("this is example program of ifpresent method.");
+		Optional<String> statement=Optional.of(null);
 		statement.ifPresent(value1 -> System.out.println(value1.toUpperCase()));
 
 	}
