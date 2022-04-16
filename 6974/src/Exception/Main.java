@@ -1,22 +1,26 @@
 package Exception;
-
-public class Main {
+class Test extends Exception
+{
+	
+}
+ class Main 
+ {
 
 	public static void main(String[] args) 
 	{
 		try
 		{
-			int[] mynumbers= {1,2,3};
-			System.out.println(mynumbers[15]);
+			throw new Test();
 		}
-		catch(Exception e)
+		catch(Test t)
 		{
-			System.out.println("Something went wrong.");
+			System.out.println("Got the Test Exception");
 		}
-       finally
-       {
-    	   System.out.println("The 'try catch' is finished.");
-       }
+		finally
+		{
+			System.out.println("Inside finally block");
+		}
+
 	}
 
 }
