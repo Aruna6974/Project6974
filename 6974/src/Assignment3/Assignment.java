@@ -44,8 +44,9 @@ public class Assignment
 		System.out.println(countryMap.getCountry("Delhi"));
 		System.out.println(countryMap.getCountry("Tokyo"));
 		System.out.println(countryMap.getCountry("Washington,D.C."));
+		System.out.println(CountryMap.toArrayList());
 		
-		HashMap<String,String> M2=countryMap.swapKeyValue();
+		HashMap<String,String> M2= CountryMap.swapKeyValue();
 		System.out.println(M2);
 	}
 

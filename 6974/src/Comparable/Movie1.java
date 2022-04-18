@@ -53,7 +53,7 @@ import java.util.Comparator;
 	}
 	 
 	// Class to compare Movies by name
-	class NameCompare implements Comparator<Movie1>
+	class Namecompare2 implements Comparator<Movie1>
 	{
 	    public int compare(Movie1 m1, Movie1 m2)
 	    {
