@@ -27,7 +27,7 @@ class Main1
      // Call overloaded sort method with RatingCompare
      // (Same three steps as above)
      System.out.println("\nSorted by name");
-     NameCompare nameCompare = new NameCompare();
+     Namecompare nameCompare = new Namecompare();
      Collections.sort(list, nameCompare);
      for (Movie1 movie1: list)
          System.out.println(movie1.getName() + " " + movie1.getRating() + movie1.getYear());
