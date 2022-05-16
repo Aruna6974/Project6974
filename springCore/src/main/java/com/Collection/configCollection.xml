@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd">
+ 
+ <bean  class="com.Collection.Employee" id="employee">
+    <property name="employeeId" value="1"/>
+    
+    <property name="employeeNames">
+    <list>
+    <value>Aruna</value>
+    <value>Archana</value>
+    <value>barathi</value>
+  </list>
+    </property>
+    
+    <property name="employeeContacts">
+    <set>
+    <value>9876543214</value>
+    <value>8976543216</value>
+    <value>5678943213</value>
+  </set>
+    </property>
+    
+    <property name="employeePhones">
+    <map>
+        <entry key="Samsung" value="10000"/>
+        <entry key="Oppo" value="20000"/>
+        <entry key="Vivo" value="30000"/>
+     </map>
+    
+    </property>
+  </bean>
+ 
+ 
+ </beans>
